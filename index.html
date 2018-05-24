@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<img src="img/myWorld.jpg">
+</head>
+<body>
+	<div id="contenedor-registro">
+		<h1>Registro Estudiante</h1>
+		<hr>
+		<form id="form-registro">
+			<label for="codigo">Código</label>
+			<input type="text" name="codigo" id="codigo"><br><br>
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre" id="nombre"><br><br>
+			<label for="nota">Nota</label>
+			<input type="text" name="nota" id="nota">
+		</form>
+		<button id="boton-registro">Registrar Estudiante</button>
+		<p id="mensaje-registro"></p>
+	</div>
+
+	<div id="contenedor-botones">
+		<p><button id="mostrar-estudiantes">Mostrar Estudiantes</button></p>
+		<p><button id="mostrar-promedio">Mostrar Promedio</button></p>
+		<p><button id="mostrar-mayor">Mostrar Nota Mayor</button></p>
+		<p><button id="mostrar-menor">Mostrar Nota Menor</button></p>
+	</div>
+
+	<div id="contenedor-busqueda">
+		<label id="label-codigo-busqueda">Código</label>	
+		<input id="codigo-busqueda" type="text">
+		<button id="buscar-estudiantes">Buscar Estudiante</button>
+
+		<table id="table-busqueda">
+			<thead>
+				<tr>
+					<th>Código</th>
+					<th>Nombre</th>
+					<th>Nota</th>
+				</tr>
+			</thead>
+			<tbody id="resultado-busqueda">
+			</tbody>
+		</table>
+	</div>
+	<div id="contenedor-datos">
+		<h1>Listado de Estudiantes</h1>
+		<hr>
+		<table id="table-datos">
+			<thead>
+				<tr>
+					<th>Código</th>
+					<th>Nombre</th>
+					<th>Nota</th>
+				</tr>
+			</thead>
+
+			<tbody id="lista-estudiantes">
+			</tbody>
+		</table>
+	</div>
+	<label>
+		<img id="imagen" src="img/myWorld.jpg">
+	</label>
+	<label>
+		Felix Rivas Chamorro - Todos los derechos reservados @ Copyright 2017
+	</label>
+</body>
+</html>
